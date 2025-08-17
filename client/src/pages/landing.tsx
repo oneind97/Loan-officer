@@ -55,8 +55,8 @@ export default function Landing() {
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-cyan-500 grid place-content-center font-black">EH</div>
             <div className="leading-tight">
-              <p className="text-sm tracking-widest text-white/70">REV-INSPIRED STYLE</p>
-              <p className="font-semibold">Eddie Hernandez Mortgage</p>
+              <p className="text-sm tracking-widest text-white/70">REV Mortgage</p>
+              <p className="font-semibold">Eddie Hernandez — Branch Manager</p>
             </div>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm text-white/80">
@@ -76,7 +76,7 @@ export default function Landing() {
             <h1 className="mt-3 text-5xl md:text-6xl font-black leading-[1.05]">
               Eddie <span className="text-cyan-400">Hernandez</span>
             </h1>
-            <p className="mt-2 text-white/60">Loan Officer • NMLS #<span className="tabular-nums">XXXXX</span></p>
+            <p className="mt-2 text-white/60">Branch Manager • NMLS #<span className="tabular-nums">2029498</span> • REV Mortgage</p>
             <p className="mt-6 text-lg text-white/80 max-w-xl">
               Calm guidance. Precise execution. In-person service that actually shows up. From pre-approval to clear-to-close, I keep the process steady and the surprises at zero.
             </p>
@@ -203,8 +203,8 @@ export default function Landing() {
             <div className={`${card}`}>
               <h3 className="text-2xl font-bold">Contact</h3>
               <div className="mt-4 space-y-3 text-white/80">
-                <p className="flex items-center gap-3"><Phone className="h-5 w-5 text-cyan-400" /><a href="tel:2100000000" className="hover:underline">(210) 000-0000</a></p>
-                <p className="flex items-center gap-3"><Mail className="h-5 w-5 text-cyan-400" /><a href="mailto:eddie@example.com" className="hover:underline">eddie@example.com</a></p>
+                <p className="flex items-center gap-3"><Phone className="h-5 w-5 text-cyan-400" /><a href="tel:2108346166" className="hover:underline">(210) 834-6166</a></p>
+                <p className="flex items-center gap-3"><Mail className="h-5 w-5 text-cyan-400" /><a href="mailto:eHernandez@gorevmortgage.com" className="hover:underline">eHernandez@gorevmortgage.com</a></p>
                 <p className="flex items-center gap-3"><MapPin className="h-5 w-5 text-cyan-400" />San Antonio, TX</p>
               </div>
               <div className="mt-6 text-xs text-white/50">
@@ -233,8 +233,8 @@ export default function Landing() {
       <footer className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-4 py-10 text-sm text-white/60 grid md:grid-cols-3 gap-6">
           <div>
-            <p className="font-semibold text-white">Eddie Hernandez Mortgage</p>
-            <p className="mt-2">NMLS #XXXXX • Company NMLS #YYYYY</p>
+            <p className="font-semibold text-white">REV Mortgage</p>
+            <p className="mt-2">NMLS #2029498</p>
           </div>
           <div className="space-y-1">
             <a href="#programs" className="block hover:text-white">Programs</a>
