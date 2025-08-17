@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import type { Lead, LeadNote } from "@shared/schema";
+import type { Lead, LeadNote } from "./schema";
 
 interface LeadDetailModalProps {
   lead: Lead | null;

@@ -1,5 +1,5 @@
 import nodemailer from 'nodemailer';
-import type { Lead, ContactForm } from '@shared/schema';
+import type { Lead, ContactForm } from './schema';
 
 // Email configuration
 const transporter = nodemailer.createTransport({

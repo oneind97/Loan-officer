@@ -12,7 +12,7 @@ import {
   type InsertContactForm,
   type LeadNote,
   type InsertLeadNote,
-} from "@shared/schema";
+} from "./schema";
 import { db } from "./db";
 import { eq, desc, like, or, count, sql, and } from "drizzle-orm";
 
